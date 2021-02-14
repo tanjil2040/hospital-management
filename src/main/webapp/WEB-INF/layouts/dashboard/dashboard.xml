@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="default" 
+                template="/WEB-INF/layouts/dashboard/default.jsp">  
+<!--        <put-attribute name="title" value="" />  -->
+<!--        <put-attribute name="patient" value="/WEB-INF/layouts/dashboard/patient.jsp" />  -->
+<!--        <put-attribute name="menu" value="/WEB-INF/layouts/dashboard/menu.jsp" />-->
+<!--        <put-attribute name="menu" value="/WEB-INF/basefragments/_menu.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/basefragments/_footer.jsp" />  -->
+    </definition>  
+    <definition name="patient"
+    template="/WEB-INF/layouts/dashboard/patient.jsp"> 
+    </definition>
+    <definition name="service"
+    template="/WEB-INF/layouts/dashboard/service.jsp"> 
+    </definition>
+    <definition name="appoint"
+    template="/WEB-INF/layouts/dashboard/appoint.jsp"> 
+    </definition>
+    <definition name="doctor"
+    template="/WEB-INF/layouts/dashboard/doctor.jsp"> 
+    </definition>
+    <definition name="loginhospital"
+    template="/WEB-INF/layouts/dashboard/loginhospital.jsp"> 
+    </definition>
+    <definition name="home"
+    template="/WEB-INF/layouts/dashboard/home.jsp"> 
+    </definition>
+    <definition name="admin"
+    template="/WEB-INF/layouts/dashboard/admin.jsp"> 
+    </definition>
+ 
+    <definition name="doctorinfo"
+    template="/WEB-INF/layouts/dashboard/doctorinfo.jsp"> 
+    </definition>
+    <definition name="paymentpage"
+    template="/WEB-INF/layouts/dashboard/payment.jsp"> 
+    </definition>
+    <definition name="serviceinfo"
+    template="/WEB-INF/layouts/dashboard/serviceinfo.jsp"> 
+    </definition>
+    <definition name="historypage"
+    template="/WEB-INF/layouts/dashboard/history.jsp"> 
+    </definition>
+    
+    <definition name="errorpage"
+    template="/WEB-INF/layouts/dashboard/errorpage.jsp"> 
+    </definition>
+    <definition name="testappoint" 
+                template="/WEB-INF/layouts/dashboard/test.jsp">
+     </definition>
+    <definition name="searchinfopage" 
+                template="/WEB-INF/layouts/dashboard/searchinfopage.jsp">
+     </definition>
+    <definition name="servicepage" 
+                template="/WEB-INF/layouts/dashboard/servicepage.jsp">
+     </definition>
+    <definition name="success" 
+                template="/WEB-INF/layouts/dashboard/success.jsp">
+     </definition>
+ 
+    <!-- Home Page  -->
+<!--    <definition name="admin_dashboard" extends="default">  
+        <put-attribute name="title" value="Home Page" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/categories.jsp" />  
+    </definition>  
+       -->
+<!--     ContactUs Page 
+    <definition name="contactusPage" extends="base.definition">  
+        <put-attribute name="title" value="Contact Us" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_contactus.jsp" />  
+    </definition>    
+ -->
+  
+</tiles-definitions> 
