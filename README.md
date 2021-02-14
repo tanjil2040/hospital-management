@@ -4,9 +4,9 @@
 
 ### Some Screenshots of my project
 
-![a](screenshots/a.png)
+![a](screenshots/a.png "Home Page")
 ![b](screenshots/b.png)
 ![c](screenshots/c.png)
 ![d](screenshots/d.png)
 ![e](screenshots/e.png)
-![f](screenshots/f.png)
+
