@@ -1,6 +1,6 @@
 # Hospital Management
 
-## I use Springboot, Maeven, Java, JavaScript, and Bootstrap to make this project which is currently ongoing
+## I use Springboot, Maven, Java, JavaScript, and Bootstrap to make this project which is currently ongoing
 
 ### Some Screenshots of my project
 
